@@ -84,9 +84,9 @@ I built a Power BI dashboard visualizing:
 
 ---
 
-## 📊 6. Insights & Recommendations
+## 5. Insights & Recommendations
 
-### 🔍 Key Insights from the Dashboard:
+### Key Insights from the Dashboard:
 
 1. **Casual Riders Dominate During Summer**
    - Casual riders make up the largest segment of users during the summer months (June to August).
@@ -112,7 +112,7 @@ I built a Power BI dashboard visualizing:
 
 ---
 
-### 💡 Business Recommendations:
+### Business Recommendations:
 
 1. **Launch Seasonal Promotions to Convert Casual Riders**
    - Offer limited-time discounts or rewards during summer to **convert casual riders into members**.
