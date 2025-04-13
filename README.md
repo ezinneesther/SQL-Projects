@@ -67,7 +67,7 @@ Built a Power BI dashboard visualizing:
 - User segmentation (casual vs registered)
 
  _Dashboard Preview_  
-![Step 4 - Final Dashboard](Sales Data Rep.jpeg)
+![Step 4 - Final Dashboard](Hassride-sales-DB.png)
 
 ---
 
