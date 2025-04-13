@@ -84,26 +84,62 @@ I built a Power BI dashboard visualizing:
 
 ---
 
-## Key Insights
+## 📊 6. Insights & Recommendations
 
--  **Total Revenue:** $15M  
--  **Total Profit:** $10.45M  
--  **Profit Margin:** 45%  
--  **Total Riders:** 3M  
--  **Most Profitable Hours:** 10 AM – 3 PM  
--  **Best Seasons:** Spring ($4.5M), Summer ($4.2M)  
--  **User Base:** 81% registered, 19% casual  
+### 🔍 Key Insights from the Dashboard:
+
+1. **Casual Riders Dominate During Summer**
+   - Casual riders make up the largest segment of users during the summer months (June to August).
+   - Ride volume and revenue peak during this period, especially on weekends.
+
+2. **Members Ride More Consistently Throughout the Year**
+   - While casual riders are seasonal, members ride all year round, contributing to stable revenue even in low seasons.
+   - Members also take longer rides on average during weekdays.
+
+3. **Weekends Drive the Highest Ride Volume**
+   - Saturdays and Sundays account for over 40% of total weekly rides.
+   - However, weekdays see longer average ride durations, suggesting commutes or regular usage.
+
+4. **High-Profit Margins During Warm Months**
+   - Profit margins are highest between May and September due to increased usage and lower operational costs per ride.
+
+5. **Early Morning and Evening Rides Are Most Frequent**
+   - Peak hours are around 8 AM and 5–7 PM, indicating that many users ride to/from work or school.
+
+6. **Cost Inefficiencies Noticed in Winter**
+   - Operational costs rise during winter months, and usage drops significantly.
+   - Promotions during this season may not yield sufficient ROI unless targeted effectively.
 
 ---
 
-## Recommendations
+### 💡 Business Recommendations:
 
-- Increase marketing in Spring & Summer
-- Focus on midday traffic (10 AM–3 PM)
-- Convert casual users through promotions
-- Investigate reasons for December drop-off
+1. **Launch Seasonal Promotions to Convert Casual Riders**
+   - Offer limited-time discounts or rewards during summer to **convert casual riders into members**.
+   - This would help retain them beyond the peak season and build loyalty.
+
+2. **Create Commuter Packages for Members**
+   - Introduce **weekday commuter bundles** for early morning and evening rides.
+   - Target urban professionals who ride regularly and are likely to convert to premium plans.
+
+3. **Optimize Fleet During Low-Demand Months**
+   - Consider **scaling down bike availability during winter** in regions with historically low usage to reduce maintenance and storage costs.
+   - Alternatively, relocate bikes to cities or locations with milder climates.
+
+4. **Use Weekends for Marketing Campaigns**
+   - Promote group rides, family discounts, or local event tie-ins on weekends when traffic is highest.
+   - Encourage social sharing to boost brand visibility.
+
+5. **Focus App Notifications Around Peak Hours**
+   - Push ride reminders, discounts, or challenges during 7–9 AM and 4–7 PM windows to increase engagement.
+
+6. **Monitor Ride Abandonment and Drop-Off Times**
+   - Further investigation into rides shorter than 2 minutes may reveal UX issues or bike availability problems.
+   - This could reduce refund requests and improve customer satisfaction.
 
 ---
+
+
 
 
 
