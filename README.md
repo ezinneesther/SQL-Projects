@@ -1,4 +1,5 @@
 # Hass Ride Business Dashboard
+![](kaggle_to_powerbi.gif)
 
 ---
 
