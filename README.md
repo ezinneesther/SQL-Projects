@@ -26,7 +26,7 @@ To build a visually rich dashboard that:
 
 ###  1. Data Collection
 
-We began by collecting sales and ride data for Hass Ride, including variables like:
+I began by collecting sales and ride data for Hass Ride, including variables like:
 
 - Rider type (casual/registered)
 - Time of day and season
@@ -37,18 +37,30 @@ _Sample Dataset View_
 
 ---
 
-### 2. Data Cleaning
+### 🧹 2. Data Cleaning & Transformation (SQL)
 
-Handled missing values, corrected formatting, and ensured consistency in time/date formats using Excel and Power Query.
+The dataset was composed of three different tables:
 
-_Cleaned Dataset Overview_  
-![Step 2 - Cleaned Data](images/step2_cleaned_data.png)
+- `year1`: user profiles (e.g. rider type, ID)
+- `year2`: individual trip logs (time, duration)
+- `cost`: revenue and cost-related metrics
+
+I performed all cleaning and transformations using **SQL**, including:
+
+- Joining the tables on keys (e.g. `rider_id`, `ride_id`)
+- Filtering out invalid or incomplete records
+- Creating new fields like `season`, `profit`, and `hour_of_day`
+- Aggregating metrics for dashboard KPIs
+
+📸 _SQL Join & Transformation Preview_  
+![Step 2 - SQL Join Screenshot](images/step2_sql_cleaning.png)
+
 
 ---
 
 ###  3. Exploratory Data Analysis (EDA)
 
-Analyzed relationships and patterns in the data, such as:
+I analyzed relationships and patterns in the data, such as:
 
 - Rider frequency by hour
 - Revenue breakdown by season
@@ -61,7 +73,7 @@ Analyzed relationships and patterns in the data, such as:
 
 ### 4. Dashboard Development
 
-Built a Power BI dashboard visualizing:
+I built a Power BI dashboard visualizing:
 
 - KPIs (Total Revenue, Profit, Rider Count)
 - Hourly, seasonal, and monthly trends
