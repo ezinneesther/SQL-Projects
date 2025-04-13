@@ -67,7 +67,7 @@ Built a Power BI dashboard visualizing:
 - User segmentation (casual vs registered)
 
  _Dashboard Preview_  
-![Step 4 - Final Dashboard](images/dashboard_screenshot.png)
+![Step 4 - Final Dashboard](Sales Data Rep.jpeg)
 
 ---
 
