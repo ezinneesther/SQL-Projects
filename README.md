@@ -31,29 +31,28 @@ I began by collecting sales and ride data for Hass Ride, including variables lik
 - Rider type (casual/registered)
 - Time of day and season
 - Revenue, cost, and profit details
-
-_Sample Dataset View_  
+ 
 ![](Hass-ride-tables.png)
 
 ---
 
-### 🧹 2. Data Cleaning & Transformation (SQL)
+### 2. Data Cleaning & Transformation (SQL)
 
 The dataset was composed of three different tables:
 
-- `year1`: user profiles (e.g. rider type, ID)
-- `year2`: individual trip logs (time, duration)
+- `year1`: first year in operation
+- `year2`: second year in operation
 - `cost`: revenue and cost-related metrics
 
 I performed all cleaning and transformations using **SQL**, including:
 
-- Joining the tables on keys (e.g. `rider_id`, `ride_id`)
+- Joining the tables on keys (e.g. `rider_id`, `yr`)
 - Filtering out invalid or incomplete records
-- Creating new fields like `season`, `profit`, and `hour_of_day`
+- Creating new fields like  `profit`, and `revenue`
 - Aggregating metrics for dashboard KPIs
 
-📸 _SQL Join & Transformation Preview_  
-![](Hass-ride-tables.png)
+
+![](Hass-ride-joins.png)
 
 
 ---
@@ -65,9 +64,6 @@ I analyzed relationships and patterns in the data, such as:
 - Rider frequency by hour
 - Revenue breakdown by season
 - Correlation between profit and ride volume
-
- _EDA Graph Examples_  
-![Step 3 - EDA Graphs](images/step3_eda_graphs.png)
 
 ---
 
