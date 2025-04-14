@@ -51,8 +51,8 @@ I performed all cleaning and transformations using **SQL**, including:
 - Creating new fields like  `profit`, and `revenue`
 - Aggregating metrics for dashboard KPIs
   
+![](hass-ride.sql)
 
-hass-ride.sql
 ![](Hass-ride-joins.png)
 
 
@@ -77,7 +77,7 @@ I built a Power BI dashboard visualizing:
 - User segmentation (casual vs registered)
 
   
-![Step 4 - Final Dashboard](Hassride-sales-DB.png)
+![](Hassride-sales-DB.png)
 
 ---
 
