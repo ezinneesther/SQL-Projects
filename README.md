@@ -33,7 +33,7 @@ I began by collecting sales and ride data for Hass Ride, including variables lik
 - Revenue, cost, and profit details
 
 _Sample Dataset View_  
-![Step 1 - Data Sample](images/step1_data_sample.png)
+![](Hass-ride-tables.png)
 
 ---
 
@@ -53,7 +53,7 @@ I performed all cleaning and transformations using **SQL**, including:
 - Aggregating metrics for dashboard KPIs
 
 📸 _SQL Join & Transformation Preview_  
-![Step 2 - SQL Join Screenshot](images/step2_sql_cleaning.png)
+![](Hass-ride-tables.png)
 
 
 ---
