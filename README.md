@@ -45,13 +45,12 @@ The dataset was composed of three different tables:
 - `cost`: revenue and cost-related metrics
 
 I performed all cleaning and transformations using **SQL**, including:
+[view_my_code](hass-ride.sql)
 
 - Joining the tables on keys (e.g. `rider_id`, `yr`)
 - Filtering out invalid or incomplete records
 - Creating new fields like  `profit`, and `revenue`
 - Aggregating metrics for dashboard KPIs
-  
-![view_my_code](hass-ride.sql)
 
 ![](Hass-ride-joins.png)
 
