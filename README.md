@@ -51,7 +51,7 @@ I performed all cleaning and transformations using **SQL**, including:
 - Creating new fields like  `profit`, and `revenue`
 - Aggregating metrics for dashboard KPIs
   
-![](hass-ride.sql)
+![view_my_code](hass-ride.sql)
 
 ![](Hass-ride-joins.png)
 
@@ -134,7 +134,6 @@ I built a Power BI dashboard visualizing:
    - Further investigation into rides shorter than 2 minutes may reveal UX issues or bike availability problems.
    - This could reduce refund requests and improve customer satisfaction.
 
----
 
 
 
